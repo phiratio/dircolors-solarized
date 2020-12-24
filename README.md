@@ -1,3 +1,12 @@
+```
+mv dircolors.256dark .dir_colors
+
+in zshrc
+if [ -f ~/.dir_colors ]; then  
+  eval `dircolors ~/.dir_colors`
+fi
+```
+
 <h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>
 
 This is a repository of themes for GNU ls (configured via GNU
